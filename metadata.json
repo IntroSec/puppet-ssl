@@ -1,0 +1,22 @@
+{
+  "name": "hyper3xpl0iter-ssl",
+  "version": "0.1.0",
+  "author": "Intro Security",
+  "summary": "Puppet module to install and configure an OpenSSL CA",
+  "operatingsystem_support": [
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [ "16.04", "14.04", "12.04" ]
+        }
+       ],
+  "license": "Apache-2.0",
+  "source": "https://github.com/IntroSec/puppet-ssl",
+  "project_page": "https://github.com/IntroSec/puppet-ssl",
+  "issues_url": "https://github.com/IntroSec/puppet-ssl/issues",
+  "tags": ["introsec","openssl","ssl","pki"],
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
